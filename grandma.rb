@@ -3,7 +3,7 @@ def speak_to_grandma(message)
   #checking to see if yelling (all caps) and saying I love you
   #if message == message.upcase()
    # return "NO, NOT SINCE 1938!"
-  if message == message.downcase()
+  if message != message.upcase()
     puts "HUH?! SPEAK UP, SONNY!"
   end
 end
