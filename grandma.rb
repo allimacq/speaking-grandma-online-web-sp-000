@@ -4,7 +4,7 @@ def speak_to_grandma(message)
   #if message == message.upcase()
    # return "NO, NOT SINCE 1938!"
   if message != message.upcase()
-    puts "HUH?! SPEAK UP, SONNY!"
+    return "HUH?! SPEAK UP, SONNY!"
   end
 end
 
