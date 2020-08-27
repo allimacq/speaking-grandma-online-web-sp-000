@@ -1,10 +1,10 @@
 # Write a speak_to_grandma method.
 def speak_to_grandma(message)
-  #checking to see if yelling (all caps) and saying I love you
-  #if message == message.upcase()
-   # return "NO, NOT SINCE 1938!"
+  #not yelling
   if message != message.upcase()
     return "HUH?! SPEAK UP, SONNY!"
+  elsif message == "I LOVE YOU GRANDMA"
+    return "I LOVE YOU TOO PUMPKIN!"
   end
 end
 
