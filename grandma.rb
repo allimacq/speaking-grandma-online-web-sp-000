@@ -2,7 +2,7 @@
 def speak_to_grandma(message)
   #checking to see if yelling (all caps)
   if message == message.upcase() && message = "I LOVE YOU GRANDMA"
-    puts "I LOVE YOU TOO PUMPKIN!"
+    return "I LOVE YOU TOO PUMPKIN!"
   end
 end
 
