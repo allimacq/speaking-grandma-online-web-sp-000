@@ -3,7 +3,7 @@ def speak_to_grandma(message)
   #not yelling
   if message != message.upcase()
     return "HUH?! SPEAK UP, SONNY!"
-  elsif message == "I LOVE YOU GRANDMA"
+  elsif message == "I LOVE YOU GRANDMA!"
     return "I LOVE YOU TOO PUMPKIN!"
   end
 end
